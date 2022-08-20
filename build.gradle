@@ -64,3 +64,13 @@ tasks.withType(Test) {
         }
     }
 }
+
+test {
+    useJUnitPlatform()
+}
+
+task telega(type: Test) {
+    useJUnitPlatform{
+        includeTags "telega"
+    }
+}

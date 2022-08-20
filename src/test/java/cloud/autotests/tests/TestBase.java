@@ -25,7 +25,6 @@ public class TestBase {
     public void beforeEach() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
     }
-
     @AfterEach
     public void afterEach() {
         String sessionId = DriverUtils.getSessionId();

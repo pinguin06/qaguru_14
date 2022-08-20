@@ -3,6 +3,7 @@ package cloud.autotests.tests;
 import cloud.autotests.helpers.DriverUtils;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
@@ -13,6 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 public class GeneratedTests extends TestBase {
+    @Tag("telega")
     @Test
     @DisplayName("Проверка открытия правильной страницы")
     void titleTest() {
@@ -27,7 +29,7 @@ public class GeneratedTests extends TestBase {
         });
     }
 
-
+    @Tag("telega")
     @Test
     @DisplayName("Проверка поиска фильма")
     void searchFilm() {
@@ -43,8 +45,10 @@ public class GeneratedTests extends TestBase {
             $$("#movies_list").find(text("Green book")).shouldBe(visible);
         });
     }
+
+    @Tag("telega")
     @Test
-    @DisplayName("Проверка поиска фильма")
+    @DisplayName("Проверка ссылки \"Афиша\"")
     void checkAfisha() {
         step("Open url 'https://www.film.ru'", () -> {
             open("https://www.film.ru");
@@ -63,11 +67,12 @@ public class GeneratedTests extends TestBase {
     }
 
 
+    @Tag("telega")
     @Test
     @DisplayName("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://www.film.ru'", () ->
-            open("https://www.film.ru"));
+                open("https://www.film.ru"));
 
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
