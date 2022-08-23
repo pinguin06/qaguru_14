@@ -74,3 +74,13 @@ task telega(type: Test) {
         includeTags "telega"
     }
 }
+
+test {
+    useJUnitPlatform()
+}
+
+task telega(type: Test) {
+    useJUnitPlatform{
+        includeTags "telega"
+    }
+}
