@@ -76,6 +76,9 @@ telega
   <img src="src/attachments/parameters.jpg" width="800">
 </p>
 
+<p align="center">
+  <img src="src/attachments/parameters.jpg" width="800">
+</p>
 
 
 ## :heavy_check_mark: **Allure отчет**
