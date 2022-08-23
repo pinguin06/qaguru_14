@@ -8,15 +8,16 @@
 
 :radio_button: [***Сборка в Jenkins***](#heavy_check_mark-Сборка-в-Jenkins-с-параметрами)
 
-:radio_button: [***Allure отчет***](#:heavy_check_mark-Allure-отчет)
+:radio_button: [***Allure отчет***](#heavy_check_mark-Allure-отчет)
 
 :radio_button: [***Allure TestOps отчет***](#chart_with_upwards_trend-allure-testOps-отчет)
 
-:radio_button: [***Отчет о прохождении тестов в Telegram***](#envelope-отчет-о-прохождении-тестов-в-telegram)
+:radio_button: [***Отчет о прохождении тестов в Telegram***](#heavy_check_mark-Отчет-о-прохождении-тестов-в-Telegram)
 
 :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
 
-:radio_button: [***Видео прохождения тестов***](#clapper-видео-прохождения-тестов)
+:radio_button: [***Видео прохождения тестов***](#heavy_check_mark-Видео-прохождения-тестов)
+
 
 
 ## :computer: :brain: **Используемые технологии**
@@ -35,12 +36,15 @@
 </div>
 
 
+
 ## :heavy_check_mark: **Список проверок**
+
 * ### Проверка перехода на заданную страницу
 * ### Проверка поиска заданного фильма
 * ### Проверка перехода по ссылке "афиша"
 * ### Проверка перехода по ссылке "что посмотреть"
 * ### Проверка наличия ошибок в консоли
+
 
 
 ## :heavy_check_mark: **Команда запуска тестов удаленно в Jenkins**
@@ -58,7 +62,10 @@ telega
 -Dthreads=${threads}
 ```
 
+
+
 ## :heavy_check_mark: **Сборка в Jenkins с параметрами**
+
 <p></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a>
 </p>
 
@@ -71,7 +78,9 @@ telega
 </p>
 
 
+
 ## :heavy_check_mark: **Allure отчет**
+
 <p></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/">Allure</a></p>
 
 <p align="center">
@@ -87,6 +96,7 @@ telega
 </p>
 
 
+
 ## :heavy_check_mark: **Отчет о прохождении тестов в Telegram**
 
 <p align="center">
@@ -94,7 +104,9 @@ telega
 </p>
 
 
+
 ## :heavy_check_mark: **Видео прохождения тестов**
+
 <p></a> Видео прохождения теста в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/data/attachments/1ab037f83eb2b89f.mp4">Selenoid</a>
 </p>
 
