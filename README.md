@@ -4,7 +4,7 @@
 
 :radio_button: [***Список проверок***](#heavy_check_mark-Список-проверок)
 
-:radio_button: [***Команда запуска тестов удаленно в Jenkins***](#heavy_check_mark-Команда-запуска-тестов)
+:radio_button: [***Команда запуска тестов***](#heavy_check_mark-Команда-запуска-тестов)
 
 :radio_button: [***Сборка в Jenkins***](#heavy_check_mark-Сборка-в-Jenkins-с-параметрами)
 
