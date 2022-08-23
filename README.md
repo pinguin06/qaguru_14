@@ -63,7 +63,6 @@ telega
 ```
 
 
-
 ## :heavy_check_mark: **Сборка в Jenkins с параметрами**
 <p> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a>
 </p>
@@ -75,13 +74,14 @@ telega
 <p align="center">
   <img src="src/attachments/parameters.JPG" width="800">
 </p>
-Параметры тестов:
-Browser (браузер, по умолчанию chrome)
-Browser_version (версия браузера, по умолчанию 100.0)
-Browser_size (размер окна браузера, по умолчанию 1920x1080)
-REMOTE_URL (логин, пароль и адрес удаленного сервера Selenoid)
-VIDEO_STORAGE (адрес, по которому можно получить видео)
-Threads (количество потоков)
+
+## Параметры тестов:
+* Browser (браузер, по умолчанию chrome)
+* Browser_version (версия браузера, по умолчанию 100.0)
+* Browser_size (размер окна браузера, по умолчанию 1920x1080)
+* REMOTE_URL (логин, пароль и адрес удаленного сервера Selenoid)
+* VIDEO_STORAGE (адрес, по которому можно получить видео)
+* Проверка поиска заданного фильма
 
 
 ## :heavy_check_mark: **Allure отчет**
