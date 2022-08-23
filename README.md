@@ -4,17 +4,13 @@
 
 :radio_button: [***Список проверок***](#heavy_check_mark-Список-проверок)
 
-:radio_button: [***Команда запуска тестов удаленно в Jenkins***](#heavy_check_mark-Команда-запуска-тестов-удаленно-в-Jenkins)
+:radio_button: [***Команда запуска тестов удаленно в Jenkins***](#heavy_check_mark-Команда-запуска-тестов)
 
 :radio_button: [***Сборка в Jenkins***](#heavy_check_mark-Сборка-в-Jenkins-с-параметрами)
 
 :radio_button: [***Allure отчет***](#heavy_check_mark-Allure-отчет)
 
-:radio_button: [***Allure TestOps отчет***](#chart_with_upwards_trend-allure-testOps-отчет)
-
 :radio_button: [***Отчет о прохождении тестов в Telegram***](#heavy_check_mark-Отчет-о-прохождении-тестов-в-Telegram)
-
-:radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
 
 :radio_button: [***Видео прохождения тестов***](#heavy_check_mark-Видео-прохождения-тестов)
 
@@ -47,7 +43,11 @@
 
 
 
-## :heavy_check_mark: **Команда запуска тестов удаленно в Jenkins**
+## :heavy_check_mark: **Команда запуска тестов**
+Команда для запуска тестов локально:
+```bash
+gradle clean telega
+```
 
 Для запуска тестов удаленным путем используются настраиваемые параметры в Jenkins:
 ```bash
@@ -75,6 +75,13 @@ telega
 <p align="center">
   <img src="src/attachments/parameters.JPG" width="800">
 </p>
+Параметры тестов:
+Browser (браузер, по умолчанию chrome)
+Browser_version (версия браузера, по умолчанию 100.0)
+Browser_size (размер окна браузера, по умолчанию 1920x1080)
+REMOTE_URL (логин, пароль и адрес удаленного сервера Selenoid)
+VIDEO_STORAGE (адрес, по которому можно получить видео)
+Threads (количество потоков)
 
 
 ## :heavy_check_mark: **Allure отчет**
