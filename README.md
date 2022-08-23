@@ -4,11 +4,11 @@
 
 :radio_button: [***Список проверок***](#heavy_check_mark-Список-проверок)
 
-:radio_button: [***Команда запуска тестов удаленно в Jenkins***](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins)
+:radio_button: [***Команда запуска тестов удаленно в Jenkins***](#heavy_check_mark-Команда-запуска-тестов-удаленно-в-Jenkins)
 
-:radio_button: [***Сборка в Jenkins***](#package-сборка-в-jenkins)
+:radio_button: [***Сборка в Jenkins***](#heavy_check_mark-Сборка-в-Jenkins-с-параметрами)
 
-:radio_button: [***Allure отчет***](#bar_chart-allure-отчет)
+:radio_button: [***Allure отчет***](#:heavy_check_mark-Allure-отчет)
 
 :radio_button: [***Allure TestOps отчет***](#chart_with_upwards_trend-allure-testOps-отчет)
 
@@ -59,7 +59,8 @@ telega
 ```
 
 ## :heavy_check_mark: **Сборка в Jenkins с параметрами**
-<p></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a><p>
+<p></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a>
+</p>
 
 <p align="center">
   <img src="src/attachments/jenkins.jpg" width="800">
@@ -69,21 +70,31 @@ telega
   <img src="src/attachments/parameters.jpg" width="800">
 </p>
 
+
 ## :heavy_check_mark: **Allure отчет**
-<p></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/">Allure</a><p>
+<p></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/">Allure</a></p>
 
 <p align="center">
   <img src="src/attachments/allureReport.jpg" width="800">
+</p>
+
+<p align="center">
+  <img src="src/attachments/tests.jpg" width="800">
 </p>
 
 <p align="center">
   <img src="src/attachments/graphs.jpg" width="800">
 </p>
 
-:heavy_check_mark: **Отчет о прохождении тестов в Telegram**
-<p></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/">Allure</a><p>
+
+## :heavy_check_mark: **Отчет о прохождении тестов в Telegram**
 
 <p align="center">
-  <img src="src/attachments/allureReport.jpg" width="800">
+  <img src="src/attachments/telega.jpg" width="800">
+</p>
+
+
+## :heavy_check_mark: **Видео прохождения тестов**
+<p></a> Видео прохождения теста в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/data/attachments/1ab037f83eb2b89f.mp4">Selenoid</a>
 </p>
 
