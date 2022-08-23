@@ -97,7 +97,7 @@ telega
 
 ## :heavy_check_mark: **Отчет о прохождении тестов в Telegram**
 <p align="center">
-  <img src="src/attachments/telega.jpg" width="800">
+  <img src="src/attachments/telega.jpg" width="600">
 </p>
 
 
