@@ -68,10 +68,10 @@ telega
 <p> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a>
 </p>
 
-<p align="center">  <img src="src/attachments/jenkins.jpg" width="800"> </p>
+<p align="center">  <img src="src/attachments/jenkins.JPG" width="800"> </p>
 
 <p align="center">
-  <img src="src/attachments/parameters.jpg" width="800">
+  <img src="src/attachments/parameters.JPG" width="800">
 </p>
 
 
@@ -81,22 +81,22 @@ telega
 </p>
 
 <p align="center">
-  <img src="src/attachments/allureReport.jpg" width="800">
+  <img src="src/attachments/allureReport.JPG" width="800">
 </p>
 
 <p align="center">
-  <img src="src/attachments/tests.jpg" width="800">
+  <img src="src/attachments/tests.JPG" width="800">
 </p>
 
 <p align="center">
-  <img src="src/attachments/graphs.jpg" width="800">
+  <img src="src/attachments/graphs.JPG" width="800">
 </p>
 
 
 
 ## :heavy_check_mark: **Отчет о прохождении тестов в Telegram**
 <p align="center">
-  <img src="src/attachments/telega.jpg" width="600">
+  <img src="src/attachments/telega.JPG" width="600">
 </p>
 
 
