@@ -21,6 +21,21 @@
 > :radio_button: [***Видео прохождения тестов***](#clapper-видео-прохождения-тестов)
 >
 
+## :computer: :brain: _Используемые технологии_
+<p align="center">
+<img width="6%" title="IntelliJ" src="attachments/IntelliJ.svg">
+<img width="6%" title="Java" src="attachments/Java.svg">
+<img width="6%" title="Gradle" src="attachments/Gradle.svg">
+<img width="6%" title="JUnit5" src="attachments/JUnit5.svg">
+<img width="6%" title="Selenide" src="attachments/Selenide.svg">
+<img width="6%" title="GitHub" src="attachments/github.svg">
+<img width="6%" title="Jenkins" src="attachments/Jenkins.svg">
+<img width="6%" title="Allure TestOps" src="attachments/AllureTestOps.svg">
+<img width="6%" title="Allure Report" src="attachments/AllureReport.svg">
+<img width="6%" title="Jira Cloud" src="attachments/Jira.svg">
+<img width="6%" title="Telegram" src="attachments/Telegram.svg">
+<img width="6%" title="Selenoid" src="attachments/Selenoid.svg">
+</p>
 
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
 
