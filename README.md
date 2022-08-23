@@ -65,7 +65,6 @@ telega
 
 
 ## :heavy_check_mark: **Сборка в Jenkins с параметрами**
-
 <p></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a>
 </p>
 
@@ -80,7 +79,6 @@ telega
 
 
 ## :heavy_check_mark: **Allure отчет**
-
 <p></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/">Allure</a></p>
 
 <p align="center">
@@ -98,7 +96,6 @@ telega
 
 
 ## :heavy_check_mark: **Отчет о прохождении тестов в Telegram**
-
 <p align="center">
   <img src="src/attachments/telega.jpg" width="800">
 </p>
@@ -106,7 +103,5 @@ telega
 
 
 ## :heavy_check_mark: **Видео прохождения тестов**
-
-<p></a> Видео прохождения теста в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/data/attachments/1ab037f83eb2b89f.mp4">Selenoid</a>
-</p>
+<p></a> Видео прохождения теста в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/data/attachments/1ab037f83eb2b89f.mp4">Selenoid</a></p>
 
