@@ -4,8 +4,6 @@
 >
 > :radio_button: [***Реализация проверок***](#ballot_box_with_check-реализация-проверок)
 >
-> :radio_button: [***Команда запуска тестов локально в IntelliJ в терминале***](#arrow_forward-команда-запуска-тестов-локально-в-IntelliJ-в-терминале)
->
 > :radio_button: [***Команда запуска тестов удаленно в Jenkins***](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins)
 >
 > :radio_button: [***Сборка в Jenkins***](#package-сборка-в-jenkins)
@@ -21,7 +19,7 @@
 > :radio_button: [***Видео прохождения тестов***](#clapper-видео-прохождения-тестов)
 >
 
-## :computer: :brain: _Используемые технологии_
+## :computer: :brain: **Используемые технологии**
 <p align="center">
 <img width="6%" title="IntelliJ" src="attachments/IntelliJ.svg">
 <img width="6%" title="Java" src="attachments/Java.svg">
@@ -37,16 +35,16 @@
 <img width="6%" title="Selenoid" src="attachments/Selenoid.svg">
 </p>
 
-## :heavy_check_mark: _Список проверок_
-### Проверка перехода на заданную страницу
-### Проверка поиска заданного фильма
-### Проверка перехода по ссылке "афиша"
-### Проверка перехода по ссылке "что посмотреть"
-### Проверка наличия ошибок в консоли
+## :heavy_check_mark: **Список проверок**
+* ### Проверка перехода на заданную страницу
+* ### Проверка поиска заданного фильма
+* ### Проверка перехода по ссылке "афиша"
+* ### Проверка перехода по ссылке "что посмотреть"
+* ### Проверка наличия ошибок в консоли
 
-## :heavy_check_mark: _Команда запуска тестов удаленно в Jenkins_
+## :heavy_check_mark: **Команда запуска тестов удаленно в Jenkins**
 
-> _Для Запуска тестов удаленным путем используется настраиваемые параметры в Jenkins:_
+Для запуска тестов удаленным путем используются настраиваемые параметры в Jenkins:
 ```bash
 clean 
 telega
@@ -60,8 +58,8 @@ telega
 ```
 
 ## :heavy_check_mark: _Сборка в Jenkins с параметрами_
-<p></a> Сборка <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a><p>
+<p></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a><p>
 
 <p align="center">
-  <img src="images/screens/JenkinsJob.jpg" alt="job" width="800">
+  <img src="attachments/jenkins.jpg" width="800">
 </p>
