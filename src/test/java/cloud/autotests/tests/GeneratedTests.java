@@ -31,7 +31,7 @@ public class GeneratedTests extends TestBase {
 
     @Tag("telega")
     @Test
-    @DisplayName("Проверка ссылки \"Афиша\"")
+    @DisplayName("Проверка поиска фильма 'Green Book'")
     void searchFilm() {
         step("Open url 'https://www.film.ru'", () -> {
             open("https://www.film.ru");
