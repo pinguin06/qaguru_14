@@ -68,8 +68,10 @@ telega
 <p> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a>
 </p>
 
+Скриншот показывает количество запусков данной сборки и общий тренд прохождения тестов.
 <p align="center">  <img src="src/attachments/jenkins.JPG" width="800"> </p>
 
+Скриншот показывает необходимые параметры для запуска сборки.
 <p align="center">
   <img src="src/attachments/parameters.JPG" width="800">
 </p>
@@ -80,27 +82,30 @@ telega
 <p> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/">Allure</a>
 </p>
 
+Скриншот показывает статистику последней сборки и общий тренд прохождения тестов.
 <p align="center">
   <img src="src/attachments/allureReport.JPG" width="800">
 </p>
 
+Скриншот показывает статус тестов и детали по одному из тестов (выполненные шаги, артефакты прохождения теста).
 <p align="center">
   <img src="src/attachments/tests.JPG" width="800">
 </p>
 
+Графики позволяют представить статистику прохождения тестов, включая важные метрики Status, Severity, Duration
 <p align="center">
   <img src="src/attachments/graphs.JPG" width="800">
 </p>
 
 
-
 ## :heavy_check_mark: **Отчет о прохождении тестов в Telegram**
+Скриншот отчета о прохождении тестов, отправляемый в Telegram специально созданным ботом.
 <p align="center">
   <img src="src/attachments/telega.JPG" width="600">
 </p>
 
 
-
 ## :heavy_check_mark: **Видео прохождения тестов**
+Ссылка на пример с видео прохождения одного из тестов.
 <p> Видео прохождения теста в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/allure/data/attachments/1ab037f83eb2b89f.mp4">Selenoid</a></p>
 
