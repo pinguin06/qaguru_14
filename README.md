@@ -68,13 +68,7 @@ telega
 <p> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a>
 </p>
 
-<p align="center">
-  <img src="src/attachments/jenkins.jpg" width="800">
-</p>
-
-<p align="center">
-  <img src="src/attachments/parameters.jpg" width="800">
-</p>
+<p align="center">  <img src="src/attachments/jenkins.jpg" width="800"> </p>
 
 <p align="center">
   <img src="src/attachments/parameters.jpg" width="800">
