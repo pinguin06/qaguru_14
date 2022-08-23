@@ -37,45 +37,31 @@
 <img width="6%" title="Selenoid" src="attachments/Selenoid.svg">
 </p>
 
-<a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
+## :heavy_check_mark: _Список проверок_
+### Проверка перехода на заданную страницу
+### Проверка поиска заданного фильма
+### Проверка перехода по ссылке "афиша"
+### Проверка перехода по ссылке "что посмотреть"
+### Проверка наличия ошибок в консоли
 
-# Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
+## :heavy_check_mark: _Команда запуска тестов удаленно в Jenkins_
 
-
-# USAGE examples
-
-### For run remote tests need fill remote.properties or to pass value:
-
-* browser (default chrome)
-* browserVersion (default 89.0)
-* browserSize (default 1920x1080)
-* remoteDriverUrl (url address from selenoid or grid)
-* videoStorage (url address where you should get video)
-* threads (number of threads)
-
-
-Run tests with filled remote.properties:
+> _Для Запуска тестов удаленным путем используется настраиваемые параметры в Jenkins:_
 ```bash
-gradle clean test
+clean 
+telega
+-DremoteURL=${REMOTE_URL}
+-Dbrowser=${Browser}
+-DbrowserVersion=${Browser_version}
+-DbrowserSize=${Browser_size}
+-DremoteDriverUrl=https://user1:1234@${REMOTE_URL}/wd/hub/
+-DvideoStorage=https://${REMOTE_URL}/video/
+-Dthreads=${threads}
 ```
 
-Run tests with not filled remote.properties:
-```bash
-gradle clean -DremoteDriverUrl=https://%s:%s@selenoid.autotests.cloud/wd/hub/ -DvideoStorage=https://selenoid.autotests.cloud/video/ -Dthreads=1 test
-```
+## :heavy_check_mark: _Сборка в Jenkins с параметрами_
+<p></a> Сборка <a target="_blank" href="https://jenkins.autotests.cloud/job/ORomanshchak-qa_guru_13_14/">Jenkins</a><p>
 
-Serve report:
-```bash
-allure serve build/allure-results
-```
-
-
-###### For further development there are some example tests in src/test/java/cloud.autotests/tests/demowebshop
-* remove @Disabled("...") annotation to run tests
-```bash
-gradle clean demowebshop
-```
-
-:heart: <a target="_blank" href="https://qa.guru">qa.guru</a><br/>
-:blue_heart: <a target="_blank" href="https://t.me/qa_automation">t.me/qa_automation</a>
+<p align="center">
+  <img src="images/screens/JenkinsJob.jpg" alt="job" width="800">
+</p>
