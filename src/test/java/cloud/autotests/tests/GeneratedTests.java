@@ -48,7 +48,7 @@ public class GeneratedTests extends TestBase {
 
     @Tag("telega")
     @Test
-    @DisplayName("Проверка ссылки \"Афиша\"")
+    @DisplayName("link check \"Афиша\"")
     void checkAfisha() {
         step("Open url 'https://www.film.ru'", () -> {
             open("https://www.film.ru");
@@ -58,8 +58,28 @@ public class GeneratedTests extends TestBase {
             $("#menu > div:nth-child(3) > strong > a").click();
         });
 
-        step("Check that among the found films there is a 'Green Book'", () -> {
+        step("link check 'Афиша'", () -> {
             String expectedText = "Премьеры фильмов. График премьер. Киноафиша. Афиша кинотеатров. Кино на Фильм.Ру";
+            String actualText = title();
+
+            assertThat(actualText).isEqualTo(expectedText);
+        });
+    }
+
+    @Tag("telega")
+    @Test
+    @DisplayName("link check \"Что посмотреть\"")
+    void checkWhatLook() {
+        step("Open url 'https://www.film.ru'", () -> {
+            open("https://www.film.ru");
+        });
+
+        step("Click link ''", () -> {
+            $("#menu > div:nth-child(4) > strong > a").click();
+        });
+
+        step("link check 'Что посмотреть'", () -> {
+            String expectedText = "Фильмы и сериалы - список лучших";
             String actualText = title();
 
             assertThat(actualText).isEqualTo(expectedText);

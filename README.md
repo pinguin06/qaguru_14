@@ -1,4 +1,27 @@
-# Project in Allure TestOps with manual & automated tests
+# Автоматизированное тестирование на примере работы с сайтом 'https://www.film.ru'
+## :bookmark_tabs: Основной контент:
+> :radio_button: [***Используемые технологии***](#computer-mag_right-используемые-технологии)
+>
+> :radio_button: [***Реализация проверок***](#ballot_box_with_check-реализация-проверок)
+>
+> :radio_button: [***Команда запуска тестов локально в IntelliJ в терминале***](#arrow_forward-команда-запуска-тестов-локально-в-IntelliJ-в-терминале)
+>
+> :radio_button: [***Команда запуска тестов удаленно в Jenkins***](#repeat_one-команда-запуска-тестов-удаленно-в-Jenkins)
+>
+> :radio_button: [***Сборка в Jenkins***](#package-сборка-в-jenkins)
+>
+> :radio_button: [***Allure отчет***](#bar_chart-allure-отчет)
+>
+> :radio_button: [***Allure TestOps отчет***](#chart_with_upwards_trend-allure-testOps-отчет)
+>
+> :radio_button: [***Отчет о прохождении тестов в Telegram***](#envelope-отчет-о-прохождении-тестов-в-telegram)
+>
+> :radio_button: [***Интеграция Allure TestOps с Ticket Tracking Tool Jira***](#link-интеграция-allure-testOps-с-ticket-tracking-tool-jira)
+>
+> :radio_button: [***Видео прохождения тестов***](#clapper-видео-прохождения-тестов)
+>
+
+
 <a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
 
 # Jenkins job
@@ -12,7 +35,6 @@
 * browser (default chrome)
 * browserVersion (default 89.0)
 * browserSize (default 1920x1080)
-* browserMobileView (mobile device name, for example iPhone X)
 * remoteDriverUrl (url address from selenoid or grid)
 * videoStorage (url address where you should get video)
 * threads (number of threads)
