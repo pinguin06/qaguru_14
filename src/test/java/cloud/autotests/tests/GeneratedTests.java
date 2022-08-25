@@ -18,10 +18,10 @@ public class GeneratedTests extends TestBase {
     @Test
     @DisplayName("Проверка открытия правильной страницы")
     void titleTest() {
-        step("Open url 'https://www.film.ru'", () ->
+        step("Перейти по ссылке 'https://www.film.ru'", () ->
                 open("https://www.film.ru"));
 
-        step("Page title should have text 'Кинопортал Фильм.ру - все о кино, рецензии, обзоры, новости, премьеры фильмов'", () -> {
+        step("Заголовок страницы должен содержать текст 'Кинопортал Фильм.ру - все о кино, рецензии, обзоры, новости, премьеры фильмов'", () -> {
             String expectedTitle = "Кинопортал Фильм.ру - все о кино, рецензии, обзоры, новости, премьеры фильмов";
             String actualTitle = title();
 
