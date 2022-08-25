@@ -97,7 +97,7 @@ telega
 
 Скриншот показывает статус тестов и детали по одному из тестов (выполненные шаги, артефакты прохождения теста).
 <p align="center">
-  <img src="attachments/tests.JPG" width="800">
+  <img src="attachments/tests1.JPG" width="800">
 </p>
 
 Графики позволяют представить статистику прохождения тестов, включая важные метрики Status, Severity, Duration
