@@ -19,16 +19,16 @@
 ## :computer: :brain: **Используемые технологии**
 
 <div align="center">
-<a href="https://www.jetbrains.com/idea/"><img alt="InteliJ IDEA" height="50" src="src/attachments/IntelliJ.svg" width="50"/></a>
-<a href="https://www.java.com/"><img alt="Java" height="50" src="src/attachments/Java.svg" width="50"/></a>
-<a href="https://junit.org/junit5/"><img alt="JUnit 5" height="50" src="src/attachments/JUnit5.svg" width="50"/></a>
-<a href="https://selenide.org/"><img alt="Selenide" height="50" src="src/attachments/Selenide.svg" width="50"/></a>
-<a href="https://aerokube.com/selenoid/"><img alt="Selenoid" height="50" src="src/attachments/Selenoid.svg" width="50"/></a>
-<a href="https://gradle.org/"><img alt="Gradle" height="50" src="src/attachments/Gradle.svg" width="50"/></a>
-<a href="https://www.jenkins.io/"><img alt="Jenkins" height="50" src="src/attachments/Jenkins.svg" width="50"/></a>
-<a href="https://github.com/allure-framework/"><img alt="Allure" height="50" src="src/attachments/AllureReport.svg" width="50"/></a>
-<a href="https://github.com/"><img alt="GitHub" height="50" src="src/attachments/github.svg" width="50"/></a>
-<a href="https://telegram.org/"><img alt="Telegram" height="50" src="src/attachments/Telegram.svg" width="50"/></a>
+<a href="https://www.jetbrains.com/idea/"><img alt="InteliJ IDEA" height="50" src="attachments/IntelliJ.svg" width="50"/></a>
+<a href="https://www.java.com/"><img alt="Java" height="50" src="attachments/Java.svg" width="50"/></a>
+<a href="https://junit.org/junit5/"><img alt="JUnit 5" height="50" src="attachments/JUnit5.svg" width="50"/></a>
+<a href="https://selenide.org/"><img alt="Selenide" height="50" src="attachments/Selenide.svg" width="50"/></a>
+<a href="https://aerokube.com/selenoid/"><img alt="Selenoid" height="50" src="attachments/Selenoid.svg" width="50"/></a>
+<a href="https://gradle.org/"><img alt="Gradle" height="50" src="attachments/Gradle.svg" width="50"/></a>
+<a href="https://www.jenkins.io/"><img alt="Jenkins" height="50" src="attachments/Jenkins.svg" width="50"/></a>
+<a href="https://github.com/allure-framework/"><img alt="Allure" height="50" src="attachments/AllureReport.svg" width="50"/></a>
+<a href="https://github.com/"><img alt="GitHub" height="50" src="attachments/github.svg" width="50"/></a>
+<a href="https://telegram.org/"><img alt="Telegram" height="50" src="attachments/Telegram.svg" width="50"/></a>
 </div>
 
 
@@ -69,11 +69,11 @@ telega
 </p>
 
 Скриншот показывает количество запусков данной сборки и общий тренд прохождения тестов.
-<p align="center">  <img src="src/attachments/jenkins.JPG" width="800"> </p>
+<p align="center">  <img src="attachments/jenkins.JPG" width="800"> </p>
 
 Скриншот показывает необходимые параметры для запуска сборки.
 <p align="center">
-  <img src="src/attachments/parameters.JPG" width="800">
+  <img src="attachments/parameters.JPG" width="800">
 </p>
 
 ## Параметры тестов:
@@ -92,17 +92,17 @@ telega
 
 Скриншот показывает статистику последней сборки и общий тренд прохождения тестов.
 <p align="center">
-  <img src="src/attachments/allureReport.JPG" width="800">
+  <img src="attachments/allureReport.JPG" width="800">
 </p>
 
 Скриншот показывает статус тестов и детали по одному из тестов (выполненные шаги, артефакты прохождения теста).
 <p align="center">
-  <img src="src/attachments/tests.JPG" width="800">
+  <img src="attachments/tests.JPG" width="800">
 </p>
 
 Графики позволяют представить статистику прохождения тестов, включая важные метрики Status, Severity, Duration
 <p align="center">
-  <img src="src/attachments/graphs.JPG" width="800">
+  <img src="attachments/graphs.JPG" width="800">
 </p>
 
 
@@ -110,7 +110,7 @@ telega
 
 Скриншот отчета о прохождении тестов, отправляемый в Telegram специально созданным ботом.
 <p align="center">
-  <img src="src/attachments/telega.JPG" width="600">
+  <img src="attachments/telega.JPG" width="600">
 </p>
 
 

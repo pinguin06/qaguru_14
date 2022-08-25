@@ -33,32 +33,32 @@ public class GeneratedTests extends TestBase {
     @Test
     @DisplayName("Проверка поиска фильма 'Green Book'")
     void searchFilm() {
-        step("Open url 'https://www.film.ru'", () -> {
+        step("Перейти по ссылке 'https://www.film.ru'", () -> {
             open("https://www.film.ru");
         });
 
-        step("Looking for movie 'book'", () -> {
+        step("Найти фильм по слову 'book'", () -> {
             $("#quick_search_input").setValue("book").pressEnter();
         });
 
-        step("Check that among the found films there is a 'Green Book'", () -> {
+        step("Проверить, что в результатах имеется фильм 'Green Book'", () -> {
             $$("#movies_list").find(text("Green book")).shouldBe(visible);
         });
     }
 
     @Tag("telega")
     @Test
-    @DisplayName("link check \"Афиша\"")
+    @DisplayName("Проверка перехода по ссылке \"афиша\"")
     void checkAfisha() {
-        step("Open url 'https://www.film.ru'", () -> {
+        step("Перейти по ссылке 'https://www.film.ru'", () -> {
             open("https://www.film.ru");
         });
 
-        step("Click link ''", () -> {
+        step("Перейти по ссылке 'афиша'", () -> {
             $("#menu > div:nth-child(3) > strong > a").click();
         });
 
-        step("link check 'Афиша'", () -> {
+        step("Проверить наличие текста на странице 'афиша'", () -> {
             String expectedText = "Премьеры фильмов. График премьер. Киноафиша. Афиша кинотеатров. Кино на Фильм.Ру";
             String actualText = title();
 
@@ -68,17 +68,17 @@ public class GeneratedTests extends TestBase {
 
     @Tag("telega")
     @Test
-    @DisplayName("link check \"Что посмотреть\"")
+    @DisplayName("Проверка перехода по ссылке \"что посмотреть\"")
     void checkWhatLook() {
-        step("Open url 'https://www.film.ru'", () -> {
+        step("Перейти по ссылке 'https://www.film.ru'", () -> {
             open("https://www.film.ru");
         });
 
-        step("Click link ''", () -> {
+        step("Перейти по ссылке 'что посмотреть'", () -> {
             $("#menu > div:nth-child(4) > strong > a").click();
         });
 
-        step("link check 'Что посмотреть'", () -> {
+        step("Проверить наличие текста на странице 'что посмотреть'", () -> {
             String expectedText = "Фильмы и сериалы - список лучших";
             String actualText = title();
 
@@ -89,12 +89,12 @@ public class GeneratedTests extends TestBase {
 
     @Tag("telega")
     @Test
-    @DisplayName("Page console log should not have errors")
+    @DisplayName("Проверка отсутствия ошибок в коде страницы")
     void consoleShouldNotHaveErrorsTest() {
-        step("Open url 'https://www.film.ru'", () ->
+        step("Перейти по ссылке 'https://www.film.ru'", () ->
                 open("https://www.film.ru"));
 
-        step("Console logs should not contain text 'SEVERE'", () -> {
+        step("Проверить, что логи не содержат слова 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
             String errorText = "SEVERE";
 
